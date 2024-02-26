@@ -1,0 +1,6 @@
+USE wordpress;
+
+CREATE TABLE IF NOT EXISTS words (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    word VARCHAR(255) NOT NULL
+);
